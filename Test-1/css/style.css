@@ -16,10 +16,26 @@ a {
     text-decoration: none;
 }
 
+ul {
+    list-style: none;
+}
+
 .container {
     max-width: 1140px;
     padding: 0 10px;
     margin: 0 auto;
+}
+
+.section-box {
+    padding: 150px 0;
+}
+
+.section__title {
+    text-transform: uppercase;
+    margin-bottom: 55px;
+    font-weight: 300;
+    font-size: 42px;
+    line-height: 1.7;
 }
 
 .header {
@@ -70,3 +86,31 @@ a {
     padding: 20px 50px; 
 }
 
+.services {
+    background-color: #171717;
+    color: #f5f5f5;
+}
+
+.services__list {
+    border-top: 1px solid #f5f5f5;
+}
+
+.services__item {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    border-bottom: 1px solid #f5f5f5;
+    padding-right: 44px;
+}
+
+.services__item-title {
+    font-size: 29px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.services__item-text {
+    max-width: 800px;
+    width: 100%;
+}
